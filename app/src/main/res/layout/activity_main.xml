@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent" android:layout_height="match_parent"
+  android:orientation="vertical" android:padding="12dp">
+  <Button android:id="@+id/btnScanApps" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:text="فحص التطبيقات"/>
+  <Button android:id="@+id/btnScanNetwork" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:text="فحص الشبكة"/>
+  <Button android:id="@+id/btnScanFiles" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:text="فحص الملفات"/>
+  <Button android:id="@+id/btnExport" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:text="تصدير التقرير"/>
+  <TextView android:id="@+id/tvResult" android:layout_width="match_parent"
+    android:layout_height="0dp" android:layout_weight="1" android:padding="10dp"
+    android:textSize="14sp" android:background="#EFEFEF"/>
+</LinearLayout>

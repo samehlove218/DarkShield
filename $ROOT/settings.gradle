@@ -1,0 +1,2 @@
+rootProject.name = "DroidRemoteX"
+include ':Client:app', ':Controller:app'
